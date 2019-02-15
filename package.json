@@ -1,0 +1,26 @@
+{
+  "name": "webpackconfig",
+  "version": "1.0.0",
+  "description": "weex-loader's webpack config",
+  "main": "index.js",
+  "scripts": {
+    "build": "node build.js"
+  },
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.2",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-stage-0": "^6.24.1",
+    "babel-runtime": "^6.9.2",
+    "crypto-js": "^3.1.9-1",
+    "firefly-flyio": "^1.0.3",
+    "sourcer": "^0.1.4",
+    "webpack": "3.10.0",
+    "weex-loader": "^0.7.12",
+    "weex-ui": "0.6.4",
+    "weex-vue-render": "^1.0.17"
+  },
+  "author": "whoami",
+  "license": "ISC"
+}
